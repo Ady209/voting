@@ -1,60 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Best Bakers</title>
-    <link rel="stylesheet" href="./style.css">
-    <script defer src="https://voting-app-server-57ji.onrender.com/socket.io/socket.io.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Best Bakers</title>
+  <link rel="stylesheet" href="./style.css">
+  <script defer src="https://voting-app-server-57ji.onrender.com/socket.io/socket.io.js"></script>
 </head>
+
 <body>
-    <div class="container">
-        <h2>Your Favourite Bakery Shop In Pathankot</h2>
+  <div class="container">
+    <h2>Your Favourite Bakery Shop In Pathankot</h2>
+    <div class="row">
+
+      <div class="column">
+
+
         <div class="progress-box" id="html">
-            <img src="https://i.ibb.co/51XmHQ7/frefrtey.jpg" alt="">
-            <p>Himalaya Bakers</p>
-            <h5>Vote Us</h5>
+          <img src="https://i.ibb.co/51XmHQ7/frefrtey.jpg" alt="">
+          <p>Himalaya Bakers</p>
+          <h5>Vote Us</h5>
 
-            <div class="progress-bar">
-                <span data="0%" class="percent-tag"></span>
-            </div>
+          <div class="progress-bar">
+            <span data="0%" class="percent-tag"></span>
+          </div>
         </div>
-        <div class="progress-box" id="css">
-            <img src="https://i.ibb.co/C2bxP0V/dghhtgh.jpg" alt="">
-            <p>RS Bakers</p>
-              <h5>Vote Us</h5>
-            <div class="progress-bar">
-                <span data="0%" class="percent-tag"></span>
-            </div>
+      </div>
+          <div class="column">
+      <div class="progress-box" id="css">
+        <img src="https://i.ibb.co/C2bxP0V/dghhtgh.jpg" alt="">
+        <p>RS Bakers</p>
+        <h5>Vote Us</h5>
+        <div class="progress-bar">
+          <span data="0%" class="percent-tag"></span>
         </div>
-        <div class="progress-box" id="javascript">
-            <img src="https://i.ibb.co/TqCWFxX/grrgdhgh.jpg" alt="">
-            <p>U.S Bakers</p>
-              <h5>Vote Us</h5>
-            <div class="progress-bar">
-                <span data="0%" class="percent-tag"></span>
-            </div>
+      </div>
+      </div>
+      <div class="column">
+      <div class="progress-box" id="javascript">
+        <img src="https://i.ibb.co/TqCWFxX/grrgdhgh.jpg" alt="">
+        <p>U.S Bakers</p>
+        <h5>Vote Us</h5>
+        <div class="progress-bar">
+          <span data="0%" class="percent-tag"></span>
         </div>
-        <div class="progress-box" id="react">
-            <img src="https://i.ibb.co/NTPmT49/grghgt.jpg" alt="">
-            <p>Soni Bakers</p>
-              <h5>Vote Us</h5>
-            <div class="progress-bar">
-                <span data="0%" class="percent-tag"></span>
-            </div>
+      </div>
+      </div>
+          <div class="column">
+      <div class="progress-box" id="react">
+        <img src="https://i.ibb.co/NTPmT49/grghgt.jpg" alt="">
+        <p>Soni Bakers</p>
+        <h5>Vote Us</h5>
+        <div class="progress-bar">
+          <span data="0%" class="percent-tag"></span>
         </div>
-        <div class="progress-box" id="python">
-            <img src="https://i.ibb.co/X8LnXvk/thtrght.jpg" alt="">
-            <p>Good Morning Bakers</p>
-              <h5>Vote Us</h5>
-            <div class="progress-bar">
-                <span data="0%" class="percent-tag"></span>
-            </div>
+      </div>
+          </div>
+                <div class="column">
+      <div class="progress-box" id="python">
+        <img src="https://i.ibb.co/X8LnXvk/thtrght.jpg" alt="">
+        <p>Good Morning Bakers</p>
+        <h5>Vote Us</h5>
+        <div class="progress-bar">
+          <span data="0%" class="percent-tag"></span>
         </div>
-        <h3>Total Votes : <span id="totalVotes"></span></h3>
+      </div>
     </div>
+    </div>
+    <h3>Total Votes : <span id="totalVotes"></span></h3>
+  </div>
 
-    <script defer src="./script.js"></script>
+  <script defer src="./script.js"></script>
 </body>
+
 </html>
