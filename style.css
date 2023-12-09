@@ -179,3 +179,9 @@ h5:hover::before{
 .row{
   width: 110%;
 }
+@media screen and (max-width: 600px) {
+
+  img{
+    max-width: 100%;
+  }
+}
