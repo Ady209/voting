@@ -164,3 +164,18 @@ h5:hover::before{
   width: 100%;
   filter: drop-shadow(0 0 25px);
 }
+
+.column{
+  float: left;
+  width: 45.45%;
+  padding: 5px;
+}
+
+.row::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.row{
+  width: 110%;
+}
